@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import sys
+sys.path.append("artifacts")
 
 pipeline_path = "artifacts/preprocessor/preprocessor.pkl"
 model_path = "artifacts/model/svm.pkl"
